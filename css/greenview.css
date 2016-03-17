@@ -1,0 +1,81 @@
+
+.container_24{margin-top: 10px;}
+ul{list-style: none;margin-top: 20px;margin-left: 214px;}
+li{margin-left: 78px;}
+ul li{display: inline;padding-right: 0px;padding-left:26px;font-size: 100%;}
+a{text-decoration: none;color:#659831;margin-right: -58px;}
+a:hover,.slected{color: green;}
+h1, h2, h3 {letter-spacing: -1px;}
+
+/*******************************************
+             header
+********************************************/
+
+.header_span{font-weight: normal;}
+header h1{color: green;font-size: 30px;}
+.banner{background: url(../images/Capture.jpg) no-repeat;
+        height: 300px;position: relative; }
+
+ .banner h2{ color: green;position: absolute;width:350px;
+            top:78px;
+            left: 16px;
+            padding: 0px 0px;
+            font-size: 28px;
+            background: rgba(0,0,0,.1);
+            letter-spacing: -1px;
+            font-weight: normal;
+            bottom: 42px;}
+
+ .box{background: url(../images/gro.png) no-repeat;;height: 272px;color: #99c06d;}
+
+
+ /*
+*********************************************
+            main
+*********************************************
+*/
+
+.button{background:#659831;
+        color: #d4d4d4;
+        text-transform: uppercase;
+        padding:5px;
+        border-radius: 10px 30px 30px 10px;}
+
+blockquote,blockquote p{color:black;font-style: italic;
+                         padding-left: 22px;
+                         font-size: 15px;
+                         letter-spacing:0px;
+                         line-height: 19px; 
+                          position: relative;}
+
+ blockquote p:before{font-size: 40px;
+                     content: "\201C";
+                     font-style: italic;
+                   margin-left:-20px;
+                  margin-top: 5px;
+                position: absolute;}
+
+ blockquote p:after{font-size:40px;
+                     content: "\201D";
+                    font-style: italic;
+                  margin-left:3px;
+                  margin-top: 9px;
+                  position: absolute;
+                }
+
+
+h3{border-bottom: solid 1px #659831;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 0em;
+    font-size: 26px;}
+
+
+/*
+**********************************************
+          footer
+**********************************************
+*/
+footer{border-top: solid 1px #659831;
+       padding-top:18px;
+       }
